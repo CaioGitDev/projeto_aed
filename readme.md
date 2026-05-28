@@ -9,7 +9,7 @@ Licenciatura em Engenharia Informática.
 **Grupo:**
 - Caio Rosa (Nº 160173003)
 - Lucélia Ferreira (Nº 240001227)
-- Nadine (Nº )
+- Nadine Jeremias (Nº 240001501)
 
 ---
 
