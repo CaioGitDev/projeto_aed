@@ -8,7 +8,8 @@ Licenciatura em Engenharia Informática.
 
 **Grupo:**
 - Caio Rosa (Nº 160173003)
-- Lucélia Ferreira
+- Lucélia Ferreira (Nº 240001227)
+- Nadine (Nº )
 
 ---
 
@@ -52,15 +53,8 @@ projeto_aed/
 
 ## Estado de Progresso
 
-| Fase | Estado |
-|---|---|
-| 0 — Especificação técnica | ✅ Concluída |
-| 1 — Estruturas de dados | 🚧 Em curso |
-| &nbsp;&nbsp;&nbsp;&nbsp;1.1 — `No` + `ListaLigada` | ✅ Concluída |
-| &nbsp;&nbsp;&nbsp;&nbsp;1.2 — `Fila` | ⏳ Próximo passo |
-| &nbsp;&nbsp;&nbsp;&nbsp;1.3 — `Grafo` | ⏳ |
-| 2 — Modelo de domínio | ⏳ |
-| 3 — Algoritmos | ⏳ |
-| 4 — Simulação e CLI | ⏳ |
-| 5 — Extras | ⏳ |
-| 6 — Relatório e vídeo | ⏳ |
+1. estruturas de dados
+2. modelo de dominio
+3. algoritmos
+4. simulação e CLI
+5. relatorio e video

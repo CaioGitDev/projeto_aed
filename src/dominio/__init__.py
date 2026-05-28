@@ -2,5 +2,6 @@
  
 from .passageiro import Passageiro
 from .paragem import Paragem
+from .autocarro import Autocarro
  
-__all__ = ["Passageiro", "Paragem"]
+__all__ = ["Passageiro", "Paragem", "Autocarro"]
