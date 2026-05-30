@@ -35,7 +35,7 @@ class TestInicializacaoListaLigada:
   def test_lista_esta_vazia_ao_inicializar(self):
     nova_lista: ListaLigada[int] = ListaLigada()
     assert nova_lista.esta_vazia() == True
-    assert nova_lista.tamanho() == 0
+    assert nova_lista.tamanho == 0
     assert len(nova_lista) == 0
     
   def test_iteracao_em_lista_vazia_nao_produz_elementos(self):
@@ -47,7 +47,7 @@ class TestInserirInicio:
   def test_insere_em_lista_vazia(self):
     lista: ListaLigada[int] = ListaLigada()
     lista.inserir_inicio(10)
-    assert lista.tamanho() == 1
+    assert lista.tamanho == 1
     assert lista.obter(0) == 10
 
   def test_inserir_inicio_coloca_no_topo(self):
@@ -79,7 +79,7 @@ class TestInserirFim:
     lista.inserir_fim("B")
     lista.inserir_fim("C")
     assert list(lista) == ["A", "B", "C"]
-    assert lista.tamanho() == 3
+    assert lista.tamanho == 3
   
 # Testes para inserir em posição específica
 # TODO
