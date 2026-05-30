@@ -54,7 +54,7 @@ class Grafo:
   @property
   def numero_nos(self) -> int:
     # número de nós no grafo O(1)
-    return self._adjacencias.tamanho()
+    return self._adjacencias.tamanho
   
   # operações
   def adicionar_no(self, nome: str) -> None:
@@ -174,3 +174,5 @@ class Grafo:
       linhas.append(f"  {entrada.nome} -> [{vizinhos}]")
     corpo = "\n".join(linhas)
     return f"Grafo ({tipo}, {self.numero_nos} nós):\n{corpo}"
+  
+  
