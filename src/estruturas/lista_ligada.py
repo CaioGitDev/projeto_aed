@@ -30,6 +30,7 @@ class ListaLigada(Generic[T]):
     self._tamanho: int = 0
     
   # GETS
+  @property
   def tamanho(self) -> int:
     return self._tamanho
   
