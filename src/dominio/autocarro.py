@@ -40,10 +40,10 @@ class Autocarro:
     return self._posicao_atual
   
   def lotacao(self) -> int:
-      return self._passageiros.tamanho()
+      return self._passageiros.tamanho
  
   def lugares_livres(self) -> int:
-    return self._capacidade - self._passageiros.tamanho()
+    return self._capacidade - self._passageiros.tamanho
 
   def esta_cheio(self) -> bool:
     return self.lugares_livres() == 0
